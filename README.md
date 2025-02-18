@@ -21,7 +21,20 @@ Work in progress - and don't expect too much :-)
 ---
 #### Install and run:
 
+- Check you have the latest Version of Python installed on your System.
+- Clone this repre on your Path `git clone https://github.com/sebastian-kay/Multiplayer-Lobby/ && cd Multiplayer-Lobby`
+- Create a Venv by using the Python default ore others like Conda, Miniconda. Follow the Shell Steps below:
+
 ```shell
-pip fastapi uvicorn install websockets
+:: Create a Virtual Enviroment:
+python -m venv venv
+
+:: Activate the venv:
+call venv/scripts/activate
+
+:: Install the required libs to the venv:
+python -m pip install -r requirements.txt
+
+:: Run the Lobby - first time:
 uvicorn main:app --reload
 ```
