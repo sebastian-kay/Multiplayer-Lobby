@@ -1,3 +1,5 @@
+
+![img](https://github.com/sebastian-kay/multiplayer-lobby/blob/main/social_and_header_image.png?raw=true)
 ### A simple and fast multiplayer lobby on the modern Python FastAPI web framework.
 ----
 
